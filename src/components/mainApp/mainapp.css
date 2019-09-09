@@ -1,0 +1,26 @@
+.form-div {
+  margin: 0px auto;
+  border: 1px solid #ddd;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.radio-btn {
+  margin: 7px 5px 0px 0px;
+}
+
+.map-container {
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#mapDiv, .form-div {
+  min-height: 480px;
+}
+
+@media screen and (max-width: 574px) {
+  .map-container {
+    margin-top: 15px;
+  }
+}

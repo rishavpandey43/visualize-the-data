@@ -1,14 +1,24 @@
 {
-  "name": "visualise-the-data",
+  "name": "visualize-the-data",
   "version": "0.1.0",
+  "homepage": "https://rishavpandey.com/visualize-the-data",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "d3": "^5.11.0",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "leaflet": "^1.5.1",
+    "papaparse": "^5.0.2",
+    "popper.js": "^1.15.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
